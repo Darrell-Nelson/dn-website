@@ -53,7 +53,7 @@ a:hover{ text-decoration: underline; text-underline-offset: 3px; }
 }
 .header-inner{
   display:flex; align-items:center; justify-content:space-between;
-  padding: 14px 0; gap: 14px;
+  padding: 14px 0; gap: 18px;
 }
 .logo{ display:flex; align-items:center; gap: 12px; }
 .logo-mark{
@@ -141,11 +141,11 @@ h1{
 .hero-card .card{ position: sticky; top: 84px; } /* subtle, feels premium */
 
 .profile-top{
-  display:flex; gap: 14px; align-items:center;
+  display:flex; gap: 18px; align-items:center;
   padding-bottom: 12px;
 }
 .avatar{
-  width: 140px; height: 140px;
+  width: 170px; height: 170px;
   border-radius: 999px;
   background-image: url("../images/headshot.jpg");
   background-size: cover;
@@ -185,7 +185,7 @@ h1{
 .grid{
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
+  gap: 18px;
 }
 .venture-head{
   display:flex; align-items:center; justify-content:space-between;
@@ -229,7 +229,7 @@ p + p{ margin-top: 12px; }
 .f-name{ margin:0; font-weight: 900; letter-spacing: .2px; }
 .f-tag{ margin: 6px 0 0; color: var(--muted); font-weight: 700; }
 .footer-right{
-  display:flex; gap: 14px; flex-wrap:wrap;
+  display:flex; gap: 18px; flex-wrap:wrap;
   color: var(--muted); font-size: 14px;
 }
 .footer-right a:hover{ text-decoration:none; color: var(--text); }
