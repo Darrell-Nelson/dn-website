@@ -145,13 +145,13 @@ h1{
   padding-bottom: 12px;
 }
 .avatar{
-  width: 92px; height: 92px;
+  width: 140px; height: 140px;
   border-radius: 999px;
   background-image: url("../images/headshot.jpg");
   background-size: cover;
   background-position: center;
   border: 2px solid rgba(255,255,255,.16);
-  box-shadow: 0 0 0 6px rgba(110,168,255,.10);
+  box-shadow: 0 0 0 8px rgba(110,168,255,.12);
 }
 .p-name{ margin:0; font-weight: 900; letter-spacing: .2px; }
 .p-title{ margin:4px 0 0; color: var(--muted); font-weight: 700; font-size: 13px; }
