@@ -53,7 +53,7 @@ a:hover{ text-decoration: underline; text-underline-offset: 3px; }
 }
 .header-inner{
   display:flex; align-items:center; justify-content:space-between;
-  padding: 14px 0; gap: 18px;
+  padding: 14px 0; gap: 24px;
 }
 .logo{ display:flex; align-items:center; gap: 12px; }
 .logo-mark{
@@ -132,20 +132,26 @@ h1{
 
 /* Cards */
 .card{
+  padding: 24px;
+
   background: linear-gradient(180deg, var(--panel), var(--panel2));
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 18px;
 }
-.hero-card .card{ position: sticky; top: 84px; } /* subtle, feels premium */
+.hero-card .card{
+  padding: 24px;
+ position: sticky; top: 84px; } /* subtle, feels premium */
 
 .profile-top{
-  display:flex; gap: 18px; align-items:center;
+  align-items: flex-start;
+
+  display:flex; gap: 24px; align-items:center;
   padding-bottom: 12px;
 }
 .avatar{
-  width: 170px; height: 170px;
+  width: 200px; height: 200px;
   border-radius: 999px;
   background-image: url("../images/headshot.jpg");
   background-size: cover;
@@ -185,7 +191,7 @@ h1{
 .grid{
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  gap: 24px;
 }
 .venture-head{
   display:flex; align-items:center; justify-content:space-between;
@@ -229,7 +235,7 @@ p + p{ margin-top: 12px; }
 .f-name{ margin:0; font-weight: 900; letter-spacing: .2px; }
 .f-tag{ margin: 6px 0 0; color: var(--muted); font-weight: 700; }
 .footer-right{
-  display:flex; gap: 18px; flex-wrap:wrap;
+  display:flex; gap: 24px; flex-wrap:wrap;
   color: var(--muted); font-size: 14px;
 }
 .footer-right a:hover{ text-decoration:none; color: var(--text); }
@@ -244,7 +250,9 @@ p + p{ margin-top: 12px; }
 /* Responsive */
 @media (max-width: 900px){
   .hero-grid{ grid-template-columns: 1fr; }
-  .hero-card .card{ position: static; }
+  .hero-card .card{
+  padding: 24px;
+ position: static; }
   .avatar{ width: 96px; height: 96px; }
 }
 @media (max-width: 680px){
